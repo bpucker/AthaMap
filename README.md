@@ -91,5 +91,32 @@ Optional:
 
 
 ## Transfer positions between annotation versions
+This script allows the transfer of cis-regulatory elements annotated in AthaMap based on the _Arabidopsis thaliana_ genome sequence TAIR8 to TAIR10.
+
+```
+Usage
+python3 pos_transfer.py --in <FILE> --tair10 <FILE> --tair8 <FILE> --out <FILE>
+
+Mandatory:
+--in       STR     Input cis-regulatory element file
+--tair10   STR     Input TAIR10 FASTA file
+--tair8    STR     Input TAIR8 FASTA file
+--out      STR     Output cis-regulatory element file
+```
+
+
+`--in` specifies the input file that contains information about the positions of cis-regulatory elements based on TAIR8. This file can be downloaded from AthaMap.
+
+`--tair10` specifies the _Arabidopsis thaliana_ genome sequence TAIR10 FASTA file.
+
+`--tair8` specifies the _Arabidopsis thaliana_ genome sequence TAIR8 FASTA file.
+
+`--out` specifies the output file that contains information about the positions of cis-regulatory elements based on TAIR10.
+
+
+
+# References
+
+
 
 
