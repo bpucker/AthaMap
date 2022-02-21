@@ -49,7 +49,45 @@ Mandatory:
 
 
 ## Analyze co-expression of TFs with their putative target genes
+This script compares the co-expression of TFs with their target genes against co-expression with a random set of genes.
 
+```
+Usage1
+python3 cis2coexp.py --cis <FILE> --exp <FILE> --ref <STR> --out <FILE>
+
+Usage2
+python3 cis2coexp.py --cisdir <FOLDER> --exp <FILE> --reffile <FILE> --out <FILE>
+
+Mandatory1:
+--cis       STR     Input target gene file
+--exp       STR     Input expression file
+--ref       STR     AGI of TF
+--out       STR     Output file
+
+Mandatory2:
+--cisdir    STR     Folder containing input target gene files
+--exp       STR     Input expression file
+--reffile   STR     File containing AGIs of TFs
+--out       STR     Output file
+
+Optional:
+--cutoff    FLOAT   Mininmal score cutoff
+```
+
+
+`--cis` specifies the target gene input file.
+
+`--exp` specifies the gene expression input file.
+
+`--ref` specifies the Arabidopsis Gene Identifier (AGI) of the analzyed TF.
+
+`--out` specifies the output file.
+
+`--cisdir` specifies a folder containing the target gene input files.
+
+`--reffile` specifies a file containing the AGIs of the analyzed TFs.
+
+`--cutoff` specifies the minimal score that should be considered.
 
 
 ## Transfer positions between annotation versions
