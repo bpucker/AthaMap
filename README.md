@@ -25,6 +25,26 @@ Mandatory:
 
 
 ## Screen genome sequence for motifs based on PWMs
+This script screens a given genome sequence for all occurrences of TF binding sites based on the provided PWM.
+
+```
+Usage
+python3 PWM_screen.py --pwm <FILE> --seq <FILE> --out <FILE>
+
+Mandatory:
+--pwm       STR     Input PWM file
+--seq       STR     Input FASTA file
+--out       STR     Output file
+```
+
+
+`--pwm` specifies the PWM input file (.txt) that provides the information for the identification of TF binding sites.
+
+`--seq` specifies the FASTA input file that contains the sequences that will be screened for TF binding sites.
+
+`--out` specifies the output file (.txt) that lists all identified TF binding sites.
+
+
 
 
 
