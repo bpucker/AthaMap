@@ -1,3 +1,9 @@
+# AthaMap
+
+You can find the AthaMap data sets on [this wiki page](https://github.com/bpucker/AthaMap/wiki/AthaMap).
+
+
+
 # Scripts associated with AthaMap
 This repository contains scripts associated with the AthaMap database and related transcription factor analyses. Most scripts are included for documentation purposes and might not be helpful beyond the described purpose.
 
