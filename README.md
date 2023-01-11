@@ -1,6 +1,6 @@
 # AthaMap
 
-You can find the AthaMap data sets on [this wiki page](https://github.com/bpucker/AthaMap/wiki/AthaMap).
+You can find the AthaMap data sets on [this wiki page](https://github.com/bpucker/AthaMap/wiki/AthaMap). Data sets were obtained from the original [AthaMap website](http://www.athamap.de/index.php).
 
 
 
