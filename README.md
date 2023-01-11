@@ -1,5 +1,5 @@
 # AthaMap
-This repository contains scripts associated with the AthaMap2 database. Most scripts are included for documentation purposes. The
+This repository contains scripts associated with the AthaMap database and related transcription factor analyses. Most scripts are included for documentation purposes and might not be helpful beyond the described purpose.
 
 
 ## Combine Position Weight Matrices (PWMs) of the same TF binding site
